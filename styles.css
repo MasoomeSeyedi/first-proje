@@ -1,8 +1,9 @@
 @font-face
 {
-    font-family: myfont;
+    font-family: "myfont";
     src:url('assets/fonts/FontsFree-Net-ir_sans.ttf') format('truetype');
 }
+
 *{
     margin: 0px;
     padding: 0px;
@@ -10,13 +11,14 @@
 }
 html,body{
     width: 100%;
-    font-family: myfont;
+    font-family: "myfont";
 }
 body
 {
     display: flex;
     justify-content: center;
     align-items: center;
+   
 }
 .container
 {
@@ -75,8 +77,8 @@ body
 {
     background-color:#0101aa;
     color:white;
-    width: 176px;
     height: 30px;
+    font-family: "myfont";
     font-size:13px;
     cursor:pointer;
     outline:none;
@@ -98,6 +100,7 @@ body
 {
     text-align: center; /*دسترسی به داخل placeholder*/
     font-size: 13px;
+    font-family: "myfont";
 
 }
 .form-btn
@@ -105,6 +108,7 @@ body
     width: 90%;
     height: 35px;
     background-color: rgb(68, 68, 255);
+    font-family: "myfont";
     font-size: 12px;
     border: none;
     outline: none;
