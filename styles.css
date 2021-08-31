@@ -47,19 +47,19 @@ body
 .div-title
 {
     width: 70%;
-    background-color:rgb(91, 91, 255);
+    background-color:#5b5bff;
     height: 220px;
     display: flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    padding:0px 30px; /*top-bottom   left-right*/
+    padding:0px 30px; /*top-bottom   right-left*/
     position: relative; /*parent -->title-btn */
 }
 .div-form
 {
     width: 30%;
-    background-color: rgb(88, 219, 95);
+    background-color:#f0f0f0;
     height: 220px;
     display: flex;
     flex-direction: column;
@@ -73,7 +73,7 @@ body
 }
 .title-btn
 {
-    background-color: rgb(2, 2, 164);
+    background-color:#0101aa;
     color:white;
     width: 176px;
     height: 30px;
@@ -88,7 +88,7 @@ body
 }
 .input 
 {
-    margin: 5px 0px;/*top-bottom     leftright*/
+    margin: 5px 0px;/*top-bottom     right-left*/
     width: 90%;
     height: 35px;
     border:1px solid lightgray;
@@ -97,7 +97,7 @@ body
 .input::placeholder
 {
     text-align: center; /*دسترسی به داخل placeholder*/
-    font-size: 12px;
+    font-size: 13px;
 
 }
 .form-btn
@@ -112,11 +112,14 @@ body
     margin-top: 5px;
     padding: 0px 10px;;
 }
+a{
+    text-decoration: none;
+}
 .remember
 {
     color:#2E2DEE;
     font-size: 12px;
-    text-decoration: none;
+    /*text-decoration: none;*/
     margin-top: 30px;
 
 }
@@ -125,7 +128,7 @@ body
     width: 100%;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content:center ;
     align-items: center;
     margin: 20px 0px;
 } 
@@ -140,4 +143,44 @@ hr{
     color:blue;
     text-align: center;
     width: 300px;
+}
+.div-box
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;/*المان هایی که در یک سطر جا نمی گیرند به خط بعد می برد*/
+    margin-bottom:20px;
+}
+.card
+{
+    width: 300px;
+    height: 180px;
+    direction: rtl;
+    background-color:rgba(211, 211, 211, 0.5);
+    padding: 10px;
+    margin: 1px;
+   
+}
+.card-title
+{
+    /* first p tag in card*/
+    padding: 0 3px; /* top-bottom   right-left*/
+    font-size: 12px;
+    color:blue;
+    margin: 10px;
+}
+.card-link
+{
+    color:gray;
+    margin-right: 10px;
+}
+
+
+.card-description
+{
+    font-size: 12px;
+    margin: 10px;
 }
